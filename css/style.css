@@ -1,0 +1,26 @@
+/*Header Style*/
+header h1 a#logo-text{text-decoration: none;font-size:50px;color: #fff;vertical-align: middle;}
+header h1 a#logo-text:hover{color: #fff;}
+
+/*Section Style*/
+section h2.site-heading{color:#33F1FF;word-spacing:8px;letter-spacing: 3px;}
+section form.form-signin {max-width: 550px;padding: 15px;margin: 0 auto;}
+section form input#search {word-spacing: 15px;letter-spacing: 2px;}
+section form button.searchBtn {border:1px solid #ced4da;border-radius: 0;background-color: #fff;}
+
+/*Main Style*/
+.main{position: relative;top: 50px;}
+div.content{border:1px solid #707070;transition: 0.5s all ease-in-out;position: relative;}
+div.content:hover {background: #fff;border: 1px solid #06a8e4;box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);}
+.main-grid{margin-bottom: 20px;}
+.border_bottom{border: 10px solid transparent;border-image: url(../images/bor1.png) 30 round;}
+.border_top{border-top: 1px solid #707070;padding-top: 10px;}
+#likes{font-size: 30px;width: 50px; height: 50px;color:white;border-radius:25px ;border:1px solid;background-color: #00BFFF;text-align: center;cursor: pointer;float: left;}
+#comments{font-size: 30px;width: 50px; height: 50px;color:white;border-radius:25px ;border:1px solid;background-color: #00BFFF;text-align: center;cursor: pointer;float: right;}
+
+footer{position:relative;top: 60px;background: #1b2126;}
+a.footer-anchor{text-decoration: none;}
+a h4.footer-logo{color:#fff;font-size: 35px;}
+ul li h4.footer-text{color:#fdfdfd;font-size: 25px;font-weight: 100;word-spacing: 6px;letter-spacing: 2px;}
+
+
