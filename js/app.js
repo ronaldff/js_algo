@@ -6,7 +6,6 @@ xml.onload = function(){
     let output = '';
 
     Data.forEach(function(jsonData){
-      console.log(jsonData);
       output += `
                   <div class="col-xs-6 col-sm-4 col-md-4 main-grid">
                     <div class="content">
