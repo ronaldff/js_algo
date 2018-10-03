@@ -261,9 +261,11 @@ div.content:hover {background-color: #1A1D24;box-shadow: 0 10px 20px rgba(0, 0, 
 	font-weight: 300;
 	margin: 0;font-family: "IBM Plex Mono", 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;margin-bottom: 1rem;
 	line-height: 1.2;}
-div .viewsDiv, .commentsDiv, .likesDiv{display:inline-block;margin:0px 35px;}
+div .viewsDiv, .commentsDiv, .likesDiv{display:inline-block;margin:0px 20px 10px 15px;}
+a#viewsanchor{text-decoration: none;color:white;}
+a#commentsanchor{text-decoration: none;color:white;}
+a#likesanchor{text-decoration: none;color:white;}
 
-div .comments,.likes,.views{cursor: pointer;}
 
 /*footer{position:relative;top: 60px;background: #1b2126;}*/
 footer{background-color:#222831;padding-top: 10px;}
