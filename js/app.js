@@ -7,19 +7,30 @@ xml.onload = function(){
 
     Data.forEach(function(jsonData){
   
-      output += `
-                  <div class="col-xs-6 col-sm-4 col-md-4 main-grid">
+      output += ` 
+                  <div class="col-12 main-grid">
                     <div class="content">
-                      <h3 class="mt-2 heading-text text-center">${jsonData.title}</h3>
-                      <div class="border_top"></div>
+                      <h3 class="mx-4 my-3 heading-text">${jsonData.algoHeading}</h3>
+                      <p class="algo-description mx-4">${jsonData.description}</p>
+                      
 
                       <!-- Likes And Comment Section -->
                       <div class="likes_comment clearfix">
-                        <div id="likes" class="ml-2 mb-2">
-                          <i class="fa fa-thumbs-up" title="likes" aria-hidden="true"></i>
-                        </div>
                         <div id="comments" class="mr-2 ">
-                          <i class="fa fa-comments" aria-hidden="true" title="comments"></i>
+                          <div class="viewsDiv">
+                           <i class="fa fa-eye views" aria-hidden="true" title="views"></i>
+                           <span class="viewsData">${jsonData.views}</span>
+                          </div>
+                          
+                          <div class="commentsDiv">
+                            <i class="fa fa-comments comments" aria-hidden="true" title="comments"></i> 
+                           <span class="commentsData">${jsonData.comments}</span>
+                          </div>
+                          
+                          <div class="likesDiv">
+                            <i class="fa fa-thumbs-up likes" title="likes" aria-hidden="true"></i>
+                           <span class="likesData">${jsonData.likes}</span>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -28,8 +39,10 @@ xml.onload = function(){
       
     });
     document.querySelector('.filtering').innerHTML = output;
+    
   }
     
 }
 xml.send();
+
 

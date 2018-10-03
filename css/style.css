@@ -5,7 +5,8 @@ header h1 a#logo-text:hover{color: #fff;}
 
 /*Piano Style*/
 .piano {grid-template-rows: repeat(1, 1fr);grid-template-columns: repeat(35, 1fr);background-color: #222831;}
-.piano {position: relative;width: 100%;height: 100%;display: grid;}
+.piano {position: relative;width: 100%;height: 100%;display: grid;padding-right: 0px;
+	padding-left: 0px;}
 .cell {position: relative;line-height: 1;box-sizing: border-box;display: flex;justify-content: center;align-items: center;}
 	/*Cell Opacity*/
 .cell:nth-of-type(1):hover {opacity: 1;}
@@ -58,7 +59,7 @@ header h1 a#logo-text:hover{color: #fff;}
 .cell:nth-of-type(11) {transition: opacity .2s ease-out;animation: slide-in-11 .25s ease-out;opacity: 0.2;background: #dfa612;height:75px;margin: 0 .2rem;}
 .cell:nth-of-type(12) {transition: opacity .2s ease-out;animation: slide-in-12 .25s ease-out;opacity: 0.05;background: #EFBB35;height:45px;margin: 0 .2rem;}
 .cell:nth-of-type(13) {transition: opacity .2s ease-out;animation: slide-in-13 .25s ease-out;opacity: 0.4;background: #dfa612;height:108px;margin: 0 .2rem;}
-.cell:nth-of-type(14) {transition: opacity .2s ease-out;animation: slide-in-14 .25s ease-out;opacity: 0.3;background: #dfa612;height:71px;margin: 0 .2rem;}
+.cell:nth-of-type(14) {transition: opacity .2s ease-out;animation: slide-in-14 .25s ease-out;opacity: 0.3;background: #E84279;height:71px;margin: 0 .2rem;}
 .cell:nth-of-type(15) {transition: opacity .2s ease-out;animation: slide-in-15 .25s ease-out;opacity: 0.3;background: #EFBB35;height:188px;margin: 0 .2rem;}
 .cell:nth-of-type(16) {transition: opacity .2s ease-out;animation: slide-in-16 .25s ease-out;opacity: 0.2;background: #dfa612;height:150px;margin: 0 .2rem;}
 .cell:nth-of-type(17) {transition: opacity .2s ease-out;animation: slide-in-17 .25s ease-out;opacity: 0.04;background: #dfa612;height:172px;margin: 0 .2rem;}
@@ -69,7 +70,7 @@ header h1 a#logo-text:hover{color: #fff;}
 .cell:nth-of-type(22) {transition: opacity .2s ease-out;animation: slide-in-22 .25s ease-out;opacity: 0.4;background: #EFBB35;height:76px;margin: 0 .2rem;}
 .cell:nth-of-type(23) {transition: opacity .2s ease-out;animation: slide-in-23 .25s ease-out;opacity: 0.4;background: #FAE042;height:45px;margin: 0 .2rem;}
 .cell:nth-of-type(24) {transition: opacity .2s ease-out;animation: slide-in-24 .25s ease-out;opacity: 0.05;background: #dfa612;height:90px;margin: 0 .2rem;}
-.cell:nth-of-type(25) {transition: opacity .2s ease-out;animation: slide-in-25 .25s ease-out;opacity: 0.3;background: #dfa612;height:120px;margin: 0 .2rem;}
+.cell:nth-of-type(25) {transition: opacity .2s ease-out;animation: slide-in-25 .25s ease-out;opacity: 0.3;background: #E84279;height:120px;margin: 0 .2rem;}
 .cell:nth-of-type(26) {transition: opacity .2s ease-out;animation: slide-in-26 .25s ease-out;opacity: 0.2;background: #FAE042;height:150px;margin: 0 .2rem;}
 .cell:nth-of-type(27) {transition: opacity .2s ease-out;animation: slide-in-27 .25s ease-out;opacity: 0.4;background: #EFBB35;height:170px;margin: 0 .2rem;}
 .cell:nth-of-type(28) {transition: opacity .2s ease-out;animation: slide-in-28 .25s ease-out;opacity: 0.1;background: #EFBB35;height:150px;margin: 0 .2rem;}
@@ -228,7 +229,7 @@ header h1 a#logo-text:hover{color: #fff;}
 }
 
 /*Section Style*/
-section h1.site-heading{color:#EFBB35;font-size:3.7em;font-weight: 100;word-spacing:-1px;letter-spacing: -1px;font-style: italic;font-family: "IBM Plex Mono", 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;}
+section h1.site-heading{color:#EFBB35;font-size:3.7em;font-weight: 100;word-spacing:-1px;letter-spacing: -1px;font-style: italic;font-family: "IBM Plex Mono ExtraLight", 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;}
 section form.form-signin {max-width:100%;padding: 15px;margin: 0 auto;width: 500px;}
 section form input#search {word-spacing: 5px;letter-spacing: 2px;border-bottom-left-radius:7px;border-top-left-radius: 7px;border-color: #E84279;border-width: 2px;background-color: #222831;border-right: 0;}
 section form button.searchBtn {border:2px solid #E84279;border-bottom-right-radius:7px;border-top-right-radius: 7px;border-left: 0;background-color: #222831;border-bottom-left-radius:0;border-top-left-radius: 0;color: #fff;}
@@ -240,19 +241,29 @@ section form button.searchBtn {border:2px solid #E84279;border-bottom-right-radi
     box-shadow: 0 0 0 0;
 }
 /*Main Style*/
-/*.main{position: relative;top: 50px;}*/
+.top-posts h2{display: flex;
+	color: #EFBB35;margin: 1.8em 0 .9em;
+	padding-bottom: 0;letter-spacing: 2px;font-family: 'IBM Plex Sans', sans-serif,'extra-light';}
+.top-posts h2::after{content: " ";height: 2px;
+	background-image: linear-gradient(to right,rgba(239, 187, 53, 0.6) , rgba(236, 198, 48,.1));position: relative;top:0;right: 0;bottom: 0;left: 0;width: auto;flex-grow: 2;    margin: .88em 2px 0 3px;}
+	div.content p.algo-description{
+		font-family: "IBM Plex Mono", 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;margin-bottom: 15px;font-size: 1rem;color: white;line-height: 1.6;letter-spacing: 1px;
+}
 div.content{border:1px solid #1A1D24;transition: 0.5s all ease-in-out;border-radius: 3px;background: #1A1D24 linear-gradient(135deg, #F7DF1E 10px, rgba(0,0,0,0.01) 0);
 }
 div.content:hover {background-color: #1A1D24;box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);}
 .main-grid{margin-bottom: 20px;}
 .border_top{border-top: 1px solid #707070;padding-top: 10px;}
-#likes{font-size: 20px;width: 30px; height: 30px;color:white;border-radius:25px ;border:1px solid #1A1D24;background-color: #1A1D24;text-align: center;cursor: pointer;float: left;}
-#comments{font-size: 20px;width: 30px; height: 30px;color:white;border-radius:25px ;border:1px solid #1A1D24;background-color: #1A1D24;text-align: center;cursor: pointer;float: right;}
+/* #likes{font-size: 20px;width: 30px; height: 30px;color:white;border-radius:25px ;border:1px solid #1A1D24;background-color: #1A1D24;text-align: center;cursor: pointer;float: left;} */
+#comments{font-size: 20px;color:white;border-radius:25px ;border:1px solid #1A1D24;background-color: #1A1D24;text-align: center;float: right;}
 .content h3{    font-size: 1.4em;
 	color: #F7DF1E;
 	font-weight: 300;
 	margin: 0;font-family: "IBM Plex Mono", 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;margin-bottom: 1rem;
 	line-height: 1.2;}
+div .viewsDiv, .commentsDiv, .likesDiv{display:inline-block;margin:0px 35px;}
+
+div .comments,.likes,.views{cursor: pointer;}
 
 /*footer{position:relative;top: 60px;background: #1b2126;}*/
 footer{background-color:#222831;padding-top: 10px;}
