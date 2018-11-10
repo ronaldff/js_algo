@@ -1,3 +1,4 @@
+// Json Data For Algorithms Content Box
 const xml = new XMLHttpRequest();
 xml.open('GET', 'js/data.json', true);
 xml.onload = function(){
@@ -47,11 +48,30 @@ xml.onload = function(){
                 `
       
     });
-    document.querySelector('.filtering').innerHTML = output;
-    
+    document.querySelector('.mainContent').innerHTML = output;  
   }
     
 }
 xml.send();
+
+
+// Filtering Data On Search Input For Particular Algo
+document.querySelector('#search').addEventListener('keyup', filterAlgo);
+
+function filterAlgo(e) {
+  const text = e.target.value.toLowerCase();
+
+  const contents = document.querySelectorAll('.content');
+
+  contents.forEach(function(content){
+    if (content.firstElementChild.textContent.toLowerCase().indexOf(text) != -1){
+      content.style.display = 'block';
+    } else {
+      content.style.display = 'none';
+    }
+  })
+}
+
+
 
 

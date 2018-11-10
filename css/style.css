@@ -46,41 +46,41 @@ header h1 a#logo-text:hover{color: #fff;}
 .cell:nth-of-type(35):hover {opacity: 1;}
 
 	/*Cell Animation*/
-.cell:nth-of-type(1) {transition: opacity .2s ease-out;animation: slide-in .25s ease-out;opacity: 0.1;background: #dfa612;height: 200px;margin: 0 .2rem;}
-.cell:nth-of-type(2) {transition: opacity .2s ease-out;animation: slide-in-2 .25s ease-out;opacity: 0.2;background: #dfa612;height:150px;margin: 0 .2rem;}
-.cell:nth-of-type(3) {transition: opacity .2s ease-out;animation: slide-in-3 .25s ease-out;opacity: 0.2;background: #dfa612;height:120px;margin: 0 .2rem;}
-.cell:nth-of-type(4) {transition: opacity .2s ease-out;animation: slide-in-4 .25s ease-out;opacity: 0.1;background: #dfa612;height:95px;margin: 0 .2rem;}
-.cell:nth-of-type(5) {transition: opacity .2s ease-out;animation: slide-in-5 .25s ease-out;opacity: 0.2;background: #dfa612;height:125px;margin: 0 .2rem;}
-.cell:nth-of-type(6) {transition: opacity .2s ease-out;animation: slide-in-6 .25s ease-out;opacity: 0.4;background: #dfa612;height:150px;margin: 0 .2rem;}
-.cell:nth-of-type(7) {transition: opacity .2s ease-out;animation: slide-in-7 .25s ease-out;opacity: 0.4;background: #dfa612;height:175px;margin: 0 .2rem;}
-.cell:nth-of-type(8) {transition: opacity .2s ease-out;animation: slide-in-8 .25s ease-out;opacity: 0.05;background: #E84279;height:150px;margin: 0 .2rem;}
-.cell:nth-of-type(9) {transition: opacity .2s ease-out;animation: slide-in-9 .25s ease-out;opacity: 0.4;background: #dfa612;height:125px;margin: 0 .2rem;}
-.cell:nth-of-type(10) {transition: opacity .2s ease-out;animation: slide-in-10 .25s ease-out;opacity: 0.3;background: #dfa612;height:100px;margin: 0 .2rem;}
-.cell:nth-of-type(11) {transition: opacity .2s ease-out;animation: slide-in-11 .25s ease-out;opacity: 0.2;background: #dfa612;height:75px;margin: 0 .2rem;}
+.cell:nth-of-type(1) {transition: opacity .2s ease-out;animation: slide-in .25s ease-out;opacity: 0.1;background: #dfa612;height: 70px;margin: 0 .2rem;}
+.cell:nth-of-type(2) {transition: opacity .2s ease-out;animation: slide-in-2 .25s ease-out;opacity: 0.2;background: #dfa612;height:85px;margin: 0 .2rem;}
+.cell:nth-of-type(3) {transition: opacity .2s ease-out;animation: slide-in-3 .25s ease-out;opacity: 0.2;background: #dfa612;height:65px;margin: 0 .2rem;}
+.cell:nth-of-type(4) {transition: opacity .2s ease-out;animation: slide-in-4 .25s ease-out;opacity: 0.1;background: #dfa612;height:55px;margin: 0 .2rem;}
+.cell:nth-of-type(5) {transition: opacity .2s ease-out;animation: slide-in-5 .25s ease-out;opacity: 0.2;background: #dfa612;height:85px;margin: 0 .2rem;}
+.cell:nth-of-type(6) {transition: opacity .2s ease-out;animation: slide-in-6 .25s ease-out;opacity: 0.4;background: #dfa612;height:100px;margin: 0 .2rem;}
+.cell:nth-of-type(7) {transition: opacity .2s ease-out;animation: slide-in-7 .25s ease-out;opacity: 0.4;background: #dfa612;height:115px;margin: 0 .2rem;}
+.cell:nth-of-type(8) {transition: opacity .2s ease-out;animation: slide-in-8 .25s ease-out;opacity: 0.05;background: #E84279;height:90px;margin: 0 .2rem;}
+.cell:nth-of-type(9) {transition: opacity .2s ease-out;animation: slide-in-9 .25s ease-out;opacity: 0.4;background: #dfa612;height:55px;margin: 0 .2rem;}
+.cell:nth-of-type(10) {transition: opacity .2s ease-out;animation: slide-in-10 .25s ease-out;opacity: 0.3;background: #dfa612;height:70px;margin: 0 .2rem;}
+.cell:nth-of-type(11) {transition: opacity .2s ease-out;animation: slide-in-11 .25s ease-out;opacity: 0.2;background: #dfa612;height:85px;margin: 0 .2rem;}
 .cell:nth-of-type(12) {transition: opacity .2s ease-out;animation: slide-in-12 .25s ease-out;opacity: 0.05;background: #EFBB35;height:45px;margin: 0 .2rem;}
 .cell:nth-of-type(13) {transition: opacity .2s ease-out;animation: slide-in-13 .25s ease-out;opacity: 0.4;background: #dfa612;height:108px;margin: 0 .2rem;}
 .cell:nth-of-type(14) {transition: opacity .2s ease-out;animation: slide-in-14 .25s ease-out;opacity: 0.3;background: #E84279;height:71px;margin: 0 .2rem;}
-.cell:nth-of-type(15) {transition: opacity .2s ease-out;animation: slide-in-15 .25s ease-out;opacity: 0.3;background: #EFBB35;height:188px;margin: 0 .2rem;}
-.cell:nth-of-type(16) {transition: opacity .2s ease-out;animation: slide-in-16 .25s ease-out;opacity: 0.2;background: #dfa612;height:150px;margin: 0 .2rem;}
-.cell:nth-of-type(17) {transition: opacity .2s ease-out;animation: slide-in-17 .25s ease-out;opacity: 0.04;background: #dfa612;height:172px;margin: 0 .2rem;}
-.cell:nth-of-type(18) {transition: opacity .2s ease-out;animation: slide-in-18 .25s ease-out;opacity: 0.1;background: #EFBB35;height:95px;margin: 0 .2rem;}
-.cell:nth-of-type(19) {transition: opacity .2s ease-out;animation: slide-in-19 .25s ease-out;opacity: 0.2;background: #EFBB35;height:131px;margin: 0 .2rem;}
-.cell:nth-of-type(20) {transition: opacity .2s ease-out;animation: slide-in-20 .25s ease-out;opacity: 0.05;background: #EFBB35;height:150px;margin: 0 .2rem;}
+.cell:nth-of-type(15) {transition: opacity .2s ease-out;animation: slide-in-15 .25s ease-out;opacity: 0.3;background: #EFBB35;height:120px;margin: 0 .2rem;}
+.cell:nth-of-type(16) {transition: opacity .2s ease-out;animation: slide-in-16 .25s ease-out;opacity: 0.2;background: #dfa612;height:135px;margin: 0 .2rem;}
+.cell:nth-of-type(17) {transition: opacity .2s ease-out;animation: slide-in-17 .25s ease-out;opacity: 0.04;background: #dfa612;height:95px;margin: 0 .2rem;}
+.cell:nth-of-type(18) {transition: opacity .2s ease-out;animation: slide-in-18 .25s ease-out;opacity: 0.1;background: #EFBB35;height:75px;margin: 0 .2rem;}
+.cell:nth-of-type(19) {transition: opacity .2s ease-out;animation: slide-in-19 .25s ease-out;opacity: 0.2;background: #EFBB35;height:110px;margin: 0 .2rem;}
+.cell:nth-of-type(20) {transition: opacity .2s ease-out;animation: slide-in-20 .25s ease-out;opacity: 0.05;background: #EFBB35;height:90px;margin: 0 .2rem;}
 .cell:nth-of-type(21) {transition: opacity .2s ease-out;animation: slide-in-21 .25s ease-out;opacity: 0.3;background: #EFBB35;height:65px;margin: 0 .2rem;}
 .cell:nth-of-type(22) {transition: opacity .2s ease-out;animation: slide-in-22 .25s ease-out;opacity: 0.4;background: #EFBB35;height:76px;margin: 0 .2rem;}
 .cell:nth-of-type(23) {transition: opacity .2s ease-out;animation: slide-in-23 .25s ease-out;opacity: 0.4;background: #FAE042;height:45px;margin: 0 .2rem;}
 .cell:nth-of-type(24) {transition: opacity .2s ease-out;animation: slide-in-24 .25s ease-out;opacity: 0.05;background: #dfa612;height:90px;margin: 0 .2rem;}
 .cell:nth-of-type(25) {transition: opacity .2s ease-out;animation: slide-in-25 .25s ease-out;opacity: 0.3;background: #E84279;height:120px;margin: 0 .2rem;}
-.cell:nth-of-type(26) {transition: opacity .2s ease-out;animation: slide-in-26 .25s ease-out;opacity: 0.2;background: #FAE042;height:150px;margin: 0 .2rem;}
-.cell:nth-of-type(27) {transition: opacity .2s ease-out;animation: slide-in-27 .25s ease-out;opacity: 0.4;background: #EFBB35;height:170px;margin: 0 .2rem;}
-.cell:nth-of-type(28) {transition: opacity .2s ease-out;animation: slide-in-28 .25s ease-out;opacity: 0.1;background: #EFBB35;height:150px;margin: 0 .2rem;}
+.cell:nth-of-type(26) {transition: opacity .2s ease-out;animation: slide-in-26 .25s ease-out;opacity: 0.2;background: #FAE042;height:100px;margin: 0 .2rem;}
+.cell:nth-of-type(27) {transition: opacity .2s ease-out;animation: slide-in-27 .25s ease-out;opacity: 0.4;background: #EFBB35;height:80px;margin: 0 .2rem;}
+.cell:nth-of-type(28) {transition: opacity .2s ease-out;animation: slide-in-28 .25s ease-out;opacity: 0.1;background: #EFBB35;height:65px;margin: 0 .2rem;}
 .cell:nth-of-type(29) {transition: opacity .2s ease-out;animation: slide-in-29 .25s ease-out;opacity: 0.3;background: #FAE042;height:90px;margin: 0 .2rem;}
-.cell:nth-of-type(30) {transition: opacity .2s ease-out;animation: slide-in-30 .25s ease-out;opacity: 0.5;background: #dfa612;height:150px;margin: 0 .2rem;}
+.cell:nth-of-type(30) {transition: opacity .2s ease-out;animation: slide-in-30 .25s ease-out;opacity: 0.5;background: #dfa612;height:100px;margin: 0 .2rem;}
 .cell:nth-of-type(31) {transition: opacity .2s ease-out;animation: slide-in-31 .25s ease-out;opacity: 0.05;background: #EFBB35;height:65px;margin: 0 .2rem;}
-.cell:nth-of-type(32) {transition: opacity .2s ease-out;animation: slide-in-32 .25s ease-out;opacity: 0.3;background: #EFBB35;height:150px;margin: 0 .2rem;}
-.cell:nth-of-type(33) {transition: opacity .2s ease-out;animation: slide-in-33 .25s ease-out;opacity: 0.1;background: #EFBB35;height:115px;margin: 0 .2rem;}
+.cell:nth-of-type(32) {transition: opacity .2s ease-out;animation: slide-in-32 .25s ease-out;opacity: 0.3;background: #EFBB35;height:80px;margin: 0 .2rem;}
+.cell:nth-of-type(33) {transition: opacity .2s ease-out;animation: slide-in-33 .25s ease-out;opacity: 0.1;background: #EFBB35;height:105px;margin: 0 .2rem;}
 .cell:nth-of-type(34) {transition: opacity .2s ease-out;animation: slide-in-34 .25s ease-out;opacity: 0.2;background: #EFBB35;height:90px;margin: 0 .2rem;}
-.cell:nth-of-type(35) {transition: opacity .2s ease-out;animation: slide-in-35 .25s ease-out;opacity: 0.05;background: #EFBB35;height:200px;margin: 0 .2rem;}
+.cell:nth-of-type(35) {transition: opacity .2s ease-out;animation: slide-in-35 .25s ease-out;opacity: 0.05;background: #EFBB35;height:70px;margin: 0 .2rem;}
 
 	/*Cell Keyframes*/
 @keyframes slide-in {
@@ -231,7 +231,7 @@ header h1 a#logo-text:hover{color: #fff;}
 /*Section Style*/
 section h1.site-heading{color:#EFBB35;font-size:3.7em;font-weight: 100;word-spacing:-1px;letter-spacing: -1px;font-style: italic;font-family: "IBM Plex Mono ExtraLight", 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;}
 section form.form-signin {max-width:100%;padding: 15px;margin: 0 auto;width: 500px;}
-section form input#search {word-spacing: 5px;letter-spacing: 2px;border-bottom-left-radius:7px;border-top-left-radius: 7px;border-color: #E84279;border-width: 2px;background-color: #222831;border-right: 0;}
+section form input#search {word-spacing: 5px;letter-spacing: 2px;border-radius:7px;border-color: #E84279;border-width: 2px;background-color: #222831;text-align: center}
 section form button.searchBtn {border:2px solid #E84279;border-bottom-right-radius:7px;border-top-right-radius: 7px;border-left: 0;background-color: #222831;border-bottom-left-radius:0;border-top-left-radius: 0;color: #fff;}
 .btn:focus {
     box-shadow: 0 0 0 0;
