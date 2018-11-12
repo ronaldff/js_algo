@@ -61,16 +61,26 @@ document.querySelector('#search').addEventListener('keyup', filterAlgo);
 function filterAlgo(e) {
   const text = e.target.value.toLowerCase();
 
+  // Select All Contents Boxes
   const contents = document.querySelectorAll('.content');
 
-  contents.forEach(function(content){
+  contents.forEach(content => {
     if (content.firstElementChild.textContent.toLowerCase().indexOf(text) != -1){
       content.style.display = 'block';
     } else {
       content.style.display = 'none';
     }
-  })
+  });
 }
+
+
+// Link On Content Box, Send To Next Page
+$(() => {
+  const link = $('<a></a>').attr('class','link');
+  const contents = document.querySelectorAll('.content');
+})
+
+
 
 
 
